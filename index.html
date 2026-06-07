@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uni Ulm – Handlungshinweise KMF</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f7f7f7;
+  color: #222;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.logo-left {
+  height: 45px;
+  object-fit: contain;
+}
+
+.logo-right {
+  height: 50px;
+  object-fit: contain;
+}
+
+h1, h2 {
+  color: #a30000;
+}
+
+.box {
+  background: white;
+  padding: 22px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 1.02em;
+  line-height: 1.5;
+}
+
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 18px;
+  background: #fff;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #a30000;
+}
+
+.card p {
+  font-size: 0.95em;
+  line-height: 1.45;
+}
+
+a.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: #a30000;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+a.button:hover {
+  background: #7f0000;
+}
+
+.note {
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.4;
+}
+
+@media (max-width: 750px) {
+  .link-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+  <div class="header">
+    <img src="bauanalytix.jpg" alt="bauanalytix" class="logo-left" onerror="this.style.display='none'">
+    <img src="vub.png" alt="Vermögen und Bau" class="logo-right" onerror="this.style.display='none'">
+  </div>
+
+  <div class="box">
+    <h1>Uni Ulm – Handlungshinweise alte künstliche Mineralfaser</h1>
+    <p class="intro">
+      Diese Seite bündelt die wichtigsten Unterlagen und Werkzeuge für Tätigkeiten mit alter künstlicher Mineralfaser
+      an der Universität Ulm. Sie dient als zentrale Einstiegsseite für Handlungshinweise, Checklisten, Regelwerke
+      und das KMF-Arbeitsprotokoll.
+    </p>
+  </div>
+
+  <div class="box">
+    <h2>Unterlagen und Werkzeuge</h2>
+
+    <div class="link-grid">
+
+      <div class="card">
+        <h3>KMF-Arbeitsprotokoll</h3>
+        <p>
+          Browserbasiertes Ablauf- und Dokumentationstool für Arbeiten mit alter Mineralwolle.
+          Geeignet zur strukturierten Prüfung von Unterlagen, PSA, Geräten, Durchführung und Abschluss.
+        </p>
+        <a class="button" href="https://bauanalytix.github.io/KMF-Tool/" target="_blank">
+          KMF-Tool öffnen
+        </a>
+      </div>
+
+      <div class="card">
+        <h3>Handlungsanweisung alte Mineralwolle</h3>
+        <p>
+          Praxisbezogene Handlungsanweisung für Instandhaltungsarbeiten und Arbeiten im Bauunterhalt
+          mit alter künstlicher Mineralfaser nach TRGS 521.
+        </p>
+        <a class="button" href="Handlungsanweisung Umgang mit alter Mineralwolle nach TRGS 521 (2).pdf" target="_blank">
+          Handlungsanweisung öffnen
+        </a>
+      </div>
+
+      <div class="card">
+        <h3>Checkliste alte Mineralwolle</h3>
+        <p>
+          Ausfüllbare Checkliste für ausführende Firmen mit Angaben zu Arbeitsort, Tätigkeit,
+          Expositionskategorie, Unterlagen, Geräten, PSA, Arbeitsablauf und Freigabe.
+        </p>
+        <a class="button" href="Checkliste alte Mineralwolle.pdf" target="_blank">
+          Checkliste öffnen
+        </a>
+      </div>
+
+      <div class="card">
+        <h3>TRGS 521</h3>
+        <p>
+          Technische Regel für Gefahrstoffe: Tätigkeiten mit alter Mineralwolle.
+          Grundlage für Gefährdungsbeurteilung, Expositionskategorien und Schutzmaßnahmen.
+        </p>
+        <a class="button" href="TRGS-521 Neu 04.05.2026.pdf" target="_blank">
+          TRGS 521 öffnen
+        </a>
+      </div>
+
+      <div class="card">
+        <h3>Änderungen der neuen TRGS 521</h3>
+        <p>
+          Kurzübersicht zu den wichtigsten Änderungen und Anforderungen der neuen TRGS 521.
+        </p>
+        <a class="button" href="Die neue TRGS 521.pdf" target="_blank">
+          Änderungen öffnen
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>Hinweis</h2>
+    <p class="note">
+      Diese Seite ersetzt keine tätigkeitsbezogene Gefährdungsbeurteilung. Vor Beginn der Arbeiten sind
+      die konkreten Randbedingungen vor Ort zu prüfen und die erforderlichen Schutzmaßnahmen festzulegen.
+    </p>
+  </div>
+
+</div>
+</body>
+</html>
